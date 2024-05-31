@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.banner-transparent{
+    height: 100vh;
+    background-image: linear-gradient(rgba(43, 60, 43, 0.6),rgba(61, 102, 61, 0.6)), url(./images/group-of-bishops.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Abhaya Libre', serif;
+    color: #F2F1DA;
+}
+
+.banner-content{
+    padding: 10% 5%;
+    line-height: 40px;
+}  
+
+.banner-content p{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #F2F1DA;
+    word-spacing: 10px;
+}
+    
+.banner-content h1{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    word-spacing: 12px;
+}
+
+.headerLime{
+    color: #29BD29;
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-family: 'Abhaya Libre', serif;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-info{
+    border: 1px solid #ffff;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #2B3C2B;
+}
+
+.numericals{
+    background-color: #2B3C2B;
+    font-family: 'Abhaya Libre', serif;
+    width: 2px;
+    height: 2px;
+    padding: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.numerical-text{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 14px;
+}
+
+ .bg1{
+    background-color: #E6F2E7;
+ }
+    
+.date{
+    font-size: small;
+    font-family: 'Abel', sans-serif;
+    padding-left: 20px;
+    color: #3D663D;
+}
+
+.card-head{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    color: #3D663D;
+}
+
+.card-text{
+    font-family: 'Abel', sans-serif;
+    font-size: medium;
+    color: #3D663D;
+}
+
+.card-text p{
+    padding-left: 20px;
+}
+
+.btn-primary{
+    background-color: #3D663D;
+    border-radius: 0;
+    outline: 0;
+    border-color: #3D663D;
+}
+
+.heading{
+    color: #3D663D;
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.sub-heading{
+    color: #3D663D;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.text-muted{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+  
+.newsletter{
+    background-color: #E6F2E7;
+}
+
+.btnAddon{
+    background-color: #3D663D;
+    border-radius: 8px;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer{
+    background-color: #3D663D;
+    padding: 2rem 2rem;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+ 
+.footer2{
+        color: white;
+        font-family: 'Abel', sans-serif;
+        background-color: #2D332D;
+        opacity: 0.9;
+        padding: 0.5rem;
+}
+
+
+@media (max-width:600px) {
+    .banner-content {
+        padding: 40% 5%;
+        line-height: 40px;
+    }
+
+    .banner-content h1 {
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 65%;
+        word-spacing: 12px;
+    }
+    
+    .banner-content p {
+        font-family: 'Abel', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #F2F1DA;
+    
+    }
+}
+
+
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #29BD29; }
+.My-Color-Theme-2-hex { color: #379137; }
+.My-Color-Theme-3-hex { color: #0BE60B; }
+.My-Color-Theme-4-hex { color: #3D663D; }
+.My-Color-Theme-5-hex { color: #2B3C2B; }
+.My-Color-Theme-6-hex { color: #2D332D; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(41, 189, 41, 1); }
+.My-Color-Theme-2-rgba { color: rgba(55, 145, 55, 1); }
+.My-Color-Theme-3-rgba { color: rgba(11, 230, 11, 1); }
+.My-Color-Theme-4-rgba { color: rgba(61, 102, 61, 1); }
+.My-Color-Theme-5-rgba { color: rgba(43, 60, 43, 1); }
+.My-Color-Theme-6-rgba { color: rgba(45, 51, 45, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(120, 64, 45, 1); }
+.My-Color-Theme-2-hsla { color: hsla(120, 44, 39, 1); }
+.My-Color-Theme-3-hsla { color: hsla(120, 90, 47, 1); }
+.My-Color-Theme-4-hsla { color: hsla(120, 25, 31, 1); }
+.My-Color-Theme-5-hsla { color: hsla(120, 16, 20, 1); }
+.My-Color-Theme-6-hsla { color: hsla(120, 6, 18, 1); }
